@@ -1,9 +1,9 @@
-from src.Features.speak import speak
-from src.Features.startup import wishme
-from src.Features.speechreco import takeSpeech
+from src.Internal.speak import speak
+from src.startup import wishme
+from src.Internal.speechreco import takeSpeech
 import time
 
-# wishme() #for wishing
+wishme() #for wishing
 takeSpeech()
 
 
